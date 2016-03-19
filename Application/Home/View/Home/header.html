@@ -1,0 +1,16 @@
+<div class="header">
+    <div class="header-wrap">
+        <div class="current-user">
+            <a href="http://life.nju.edu.cn">生科网首页</a>
+            <{if $user.type=="admin"}>
+            <span id="current-user"> | 当前用户: <{$user.name}> | </span>
+            <{else}>
+            <a id="current-user" href="userinfo-<{$user.type}>.php"> | 当前用户: <{$user.name}> | </a>
+            <{/if}>
+            <a href="password-<{$user.type}>.php">修改密码</a>
+            <span> | </span>
+            <a class="log-out" href="logout.php">退出</a>
+        </div>
+        <div class="logo" onClick="javascript:window.location.href='lecturelist-<{$user.type}>.php';"></div>
+    </div>
+</div>

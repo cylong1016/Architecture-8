@@ -3,7 +3,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <link href="css/main.css" rel="stylesheet" type="text/css" />
     <script src="js/jquery-2.1.3.min.js" type="text/javascript"></script>
-    <title>讲座列表</title>
+    <title>讲座反馈</title>
 </head>
 <body>
 <!-- BEGIN HEADER-->
@@ -12,53 +12,53 @@
 <!-- END HEADER -->
 
 <!-- BEGIN CONTENT -->
+
 <div class="content">
     <!-- BEGIN LEFT -->
-    <include file="./Application/Home/View/User/sidebar.html" />
+    <include file="./Application/Home/View/Administrator/sidebar.html" />
     <!-- END LEFT -->
     <!-- BEGIN RIGHT -->
     <div class="right">
+
         <div class="list box">
-            <h1 class="list-header">正在报名中</h1>
+            <h1 class="list-header">未反馈讲座</h1>
             <ul class="list-detail">
-                <{foreach from=$lectureSigningup item=lecture}>
+                <{foreach from=$lectureToLog item=lecture}>
                 <li class="item">
                     <p class="info">
-                        <a class="info-title" href="lecturedetail-student.php?id=<{$lecture.id}>"><{$lecture.name|truncate_cn:23:'...'}></a>
+                        <a class="info-title" href="lecturedetail-admin.php?id=<{$lecture.id}>"><{$lecture.name|truncate_cn:23:'...'}></a>
                         <span class="info-detail">by <span><{$lecture.lecturer}></span> @<{$lecture.date}> <{$lecture.address}></span>
                     </p>
                     <p class="action">
-                        <{if $lecture.state==0}>
-                        <a class="btn-normal btn-signup-lecture" data-uid="<{$uid}>" data-lid="<{$lecture.id}>"><{$lecture.count}> / <{$lecture.total}> 报名</a>
-                        <{elseif $lecture.state==1}>
-                        <a class="btn-status">已报名成功</a>
-                        <{elseif $lecture.state==2}>
-                        <a class="btn-status">正在退选中</a>
-                        <{elseif $lecture.state==3}>
-                        <a class="btn-status">人数已满</a>
-                        <{/if}>
+                        <a href="import.php?id=<{$lecture.id}>" class="btn-normal">导入到场名单</a>
                     </p>
                 </li>
                 <{/foreach}>
             </ul>
         </div>
+
         <div class="list box">
-            <h1 class="list-header">已结束讲座</h1>
+            <h1 class="list-header">已反馈讲座</h1>
             <ul class="list-detail">
-                <{foreach from=$lectureEnded item=lecture}>
+                <{foreach from=$lectureLogged item=lecture}>
                 <li class="item">
                     <p class="info">
-                        <a class="info-title" href="lecturedetail-student.php?id=<{$lecture.id}>"><{$lecture.name|truncate_cn:23:'...'}></a>
+                        <a class="info-title" href="lecturedetail-admin.php?id=<{$lecture.id}>"><{$lecture.name|truncate_cn:23:'...'}></a>
                         <span class="info-detail">by <span><{$lecture.lecturer}></span> @<{$lecture.date}> <{$lecture.address}></span>
+                    </p>
+                    <p class="action">
+                        <a class="btn-s btn-export-excel"  href="ajax/export-excel.php?id=<{$lecture.id}>" data-lid="<{$lecture.id}>">导出</a>
+                        <a href="listdetail.php?id=<{$lecture.id}>" class="btn-normal">查看到场名单</a>
                     </p>
                 </li>
                 <{/foreach}>
                 <div id="list-more">
                 </div>
-                <a class="btn-more" data-total="<{$total}>" data-type="lecturelist-student">显示更多已结束讲座</a>
+                <a class="btn-more" data-total="<{$total}>" data-type="lecturelog-admin">显示更多已反馈讲座</a>
                 <div class="loader" style="display:none;"><img src="img/loader.gif"> 加载中...</div>
             </ul>
         </div>
+
     </div>
     <!-- END RIGHT -->
 </div>
@@ -70,6 +70,6 @@
 
 <script src="js/common.js" type="text/javascript"></script>
 <script src="js/load-more.js" type="text/javascript"></script>
-<script src="js/signup-lecture.js" type="text/javascript"></script>
+<script src="js/export-excel.js" type="text/javascript"></script>
 </body>
 </html>
