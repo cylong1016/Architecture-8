@@ -1,0 +1,640 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a6958bed-9d5a-4282-9993-b08c16765f5a" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/img/bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/js/add-lecture.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/js/add-student.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/js/cancel-log.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/js/change-password-admin.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/js/change-password-student.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/js/common.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/js/deal-message-admin.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/js/deal-message-student.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/js/export-excel-student.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/js/export-excel.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/js/forgot.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Home/View/Home/head.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/js/import-excel.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/js/jquery-2.1.3.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/css/jquery.datetimepicker.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/js/jquery.datetimepicker.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/js/load-more.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/js/operate-studentlist.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/js/operate-teacherlist.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/js/resetpass.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/js/send-cancel.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/js/signup-lecture-admin.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/js/signup-lecture.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/js/top-lecture.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/js/update-lecture.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/js/update-userinfo.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/Home/View/Home/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Public/css/announcement.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Public/css/bootstrap-datetimepicker.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Public/css/bootstrap-theme.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Public/css/bootstrap-theme.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Public/css/bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Public/css/bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Public/css/detail.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Public/css/index.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Public/css/jquery.Jcrop.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Public/css/uploadify.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Public/css/user.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Public/img/404.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Public/img/Brand-M.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Public/img/Brand-S.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Public/img/Brand.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Public/img/LilyStudio.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Public/img/MiLogo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Public/img/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Public/img/art.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Public/img/draw.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Public/img/favicon.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Public/img/homeImg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Public/img/icons/air.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Public/img/icons/architecture.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Public/img/icons/art.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Public/img/icons/astronomy.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Public/img/icons/biology.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Public/img/icons/chemistry.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Public/img/icons/computer.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Public/img/icons/dance.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Public/img/icons/economy.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Public/img/icons/environment.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Public/img/icons/film.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Public/img/icons/geography.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Public/img/icons/history.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Public/img/icons/infomation.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Public/img/icons/information.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Public/img/icons/innovation.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Public/img/icons/language.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Public/img/icons/law.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Public/img/icons/literature.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Public/img/icons/math.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Public/img/icons/maths.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Public/img/icons/medical.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Public/img/icons/music.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Public/img/icons/ocean.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Public/img/icons/other.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Public/img/icons/philosophy.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Public/img/icons/physics.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Public/img/icons/politics.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Public/img/icons/psychology.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Public/img/icons/religion.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Public/img/icons/society.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Public/img/icons/sports.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Public/img/icons2/all.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Public/img/icons2/all2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Public/img/icons2/college.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Public/img/icons2/college2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Public/img/icons2/news.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Public/img/icons2/news2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Public/img/icons2/system.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Public/img/icons2/system2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Public/img/literature1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Public/img/literature2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Public/img/lufy1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Public/img/lufy2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Public/img/lufy3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Public/img/lufy4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Public/img/lufy5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Public/img/lufy6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Public/img/miTitle.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Public/img/new/biology.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Public/img/new/film.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Public/img/new/mineral.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Public/img/new/pollution.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Public/img/new/sunzibingfa.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Public/img/new/uncertainty.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Public/img/new/usa.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Public/img/piano.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Public/img/psychology.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Public/img/sasuke1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Public/img/sixBg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Public/img/star.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Public/img/starEm.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Public/img/studio.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Public/js/Chart.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Public/js/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Public/js/announcement.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Public/js/base/less.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Public/js/base/normalize.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Public/js/bootstrap-datetimepicker.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Public/js/bootstrap-datetimepicker.zh-CN.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Public/js/bootstrap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Public/js/bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Public/js/course-detail.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Public/js/footer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Public/js/header.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Public/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Public/js/jcrop/Jcrop.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Public/js/jquery-1.11.3.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Public/js/jquery.Jcrop.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Public/js/jquery.toaster.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Public/js/jquery.uploadify-3.1.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Public/js/jquery.uploadify-3.1.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Public/js/message.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Public/js/notice.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Public/js/npm.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Public/js/settings.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Public/js/uploadify/uploadify-cancel.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Public/js/uploadify/uploadify.swf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Public/js/user.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Public/js/water-fall.js" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Home/View/Administrator/index.html" afterPath="$PROJECT_DIR$/Application/Home/View/Administrator/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Home/View/User/index.html" afterPath="$PROJECT_DIR$/Application/Home/View/User/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Home/View/Administrator/lectureDetail.html" afterPath="$PROJECT_DIR$/Application/Home/View/Administrator/lectureDetail.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/main.css" afterPath="$PROJECT_DIR$/Public/css/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Home/View/Administrator/studentList.html" afterPath="$PROJECT_DIR$/Application/Home/View/Administrator/studentList.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/.idea/workspace.xml" afterPath="$PROJECT_DIR$/Application/.idea/workspace.xml" />
+    </list>
+    <ignored path="Architecture-8.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="Architecture-8" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Application/Home/View/User/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Application/Home/View/Administrator/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-1.875">
+              <caret line="3" column="84" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="84" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="studentList.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Application/Home/View/Administrator/studentList.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.057692308">
+              <caret line="3" column="84" selection-start-line="3" selection-start-column="84" selection-end-line="3" selection-end-column="84" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="header.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Application/Home/View/Home/header.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="15" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Public/css/main.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-5.462963">
+              <caret line="204" column="23" selection-start-line="204" selection-start-column="23" selection-end-line="204" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sidebar.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Application/Home/View/Administrator/sidebar.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="8" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="lectureDetail.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Application/Home/View/Administrator/lectureDetail.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-1.875">
+              <caret line="3" column="84" selection-start-line="3" selection-start-column="84" selection-end-line="3" selection-end-column="84" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="jquery.datetimepicker.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Public/css/jquery.datetimepicker.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="199" column="16" selection-start-line="199" selection-start-column="16" selection-end-line="199" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="head.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Application/Home/View/Home/head.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.0">
+              <caret line="0" column="80" selection-start-line="0" selection-start-column="80" selection-end-line="0" selection-end-column="80" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Html5" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Application/Home/Controller/LectureController.class.php" />
+        <option value="$PROJECT_DIR$/Application/Home/View/Home/head.html" />
+        <option value="$PROJECT_DIR$/Application/Home/View/Administrator/lectureDetail.html" />
+        <option value="$PROJECT_DIR$/Public/css/jquery.datetimepicker.css" />
+        <option value="$PROJECT_DIR$/Application/Home/View/Administrator/index.html" />
+        <option value="$PROJECT_DIR$/Public/css/main.css" />
+        <option value="$PROJECT_DIR$/Application/Home/View/Administrator/studentList.html" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+  </component>
+  <component name="NamedScopeManager">
+    <order />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Architecture-8" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Architecture-8" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Architecture-8" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Architecture-8" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Architecture-8" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Architecture-8" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Architecture-8" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="img" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Architecture-8" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Architecture-8" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Architecture-8" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Architecture-8" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Home" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="View" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Architecture-8" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Architecture-8" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Home" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="View" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Administrator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Architecture-8" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Architecture-8" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Home" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="FullScreen" value="true" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="DefaultHtmlFileTemplate" value="Html5" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
+      <method />
+    </configuration>
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" config-file="">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="JsTestDriver-test-runner" factoryName="JsTestDriver">
+      <setting name="configLocationType" value="CONFIG_FILE" />
+      <setting name="settingsFile" value="" />
+      <setting name="serverType" value="INTERNAL" />
+      <setting name="preferredDebugBrowser" value="Chrome" />
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="cucumber.js" factoryName="Cucumber.js">
+      <option name="cucumberJsArguments" value="" />
+      <option name="executablePath" />
+      <option name="filePath" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a6958bed-9d5a-4282-9993-b08c16765f5a" name="Default" comment="" />
+      <created>1458390217569</created>
+      <option name="number" value="Default" />
+      <updated>1458390217569</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32932693" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24947146" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Application/Home/Controller/UserController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/Controller/AdministratorController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.42471042">
+          <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/View/User/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/Controller/LectureController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.9459459">
+          <caret line="49" column="0" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/View/Home/head.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="80" selection-start-line="0" selection-start-column="80" selection-end-line="0" selection-end-column="80" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/View/Administrator/lectureDetail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.875">
+          <caret line="3" column="84" selection-start-line="3" selection-start-column="84" selection-end-line="3" selection-end-column="84" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Public/css/jquery.datetimepicker.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="199" column="16" selection-start-line="199" selection-start-column="16" selection-end-line="199" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/View/Home/header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="15" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Public/img/bg.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Public/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.462963">
+          <caret line="204" column="23" selection-start-line="204" selection-start-column="23" selection-end-line="204" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/View/Administrator/sidebar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="8" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/View/Administrator/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.875">
+          <caret line="3" column="84" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="84" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/View/Administrator/studentList.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.057692308">
+          <caret line="3" column="84" selection-start-line="3" selection-start-column="84" selection-end-line="3" selection-end-column="84" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
