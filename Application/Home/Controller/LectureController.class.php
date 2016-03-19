@@ -43,10 +43,23 @@ class LectureController extends Controller
 	{
 
 	}
-
-	public function watch_lecture_video()
+	
+	//直播
+	public function watch_video_online()
 	{
 
+	}
+	
+	//录播
+	public function watch_video_replay()
+	{
+		
+	}
+	
+	//支付
+	public function pay_for_lecture()
+	{
+		
 	}
 }
 ?>
