@@ -29,6 +29,7 @@
                 </ul>
                 <p class="summary-action">
                     <a class="btn-normal btn-signup-lecture" data-uid="<{$uid}>" data-lid="<{$lid}>"><{$count}> / <{$total}> 报名</a>
+                    <a class="btn-normal">支付/已支付</a>
                 </p>
                 <{elseif $state==1}>
                 <ul class="summary-list">
@@ -39,6 +40,7 @@
                 </ul>
                 <p class="summary-action">
                     <a class="btn-normal" href="cancelsignup.php?id=<{$lid}>">取消报名</a>
+                    <a class="btn-normal">支付/已支付</a>
                 </p>
                 <{elseif $state==2}>
                 <ul class="summary-list">
@@ -49,6 +51,7 @@
                 </ul>
                 <p class="summary-action">
                     <a class="btn-status">正在退选中</a>
+
                 </p>
                 <{elseif $state==3}>
                 <ul class="summary-list">
@@ -59,6 +62,7 @@
                 </ul>
                 <p class="summary-action">
                     <a class="btn-status">已参与讲座(<{if $isPresent==0}>未<{/if}>到场)</a>
+                    <a class="btn-normal">观看录播</a>
                 </p>
                 <div class="">
                     <h4>讲座讨论区</h4>
@@ -70,8 +74,8 @@
                         </div>
                     </div>
                     <form>
-                        <textarea>发表留言</textarea>
-                        <button type="submit">发表</button>
+                        <textarea></textarea>
+                        <button type="submit"><a class="btn-normal">评论</a></button>
                     </form>
                 </div>
                 <{elseif $state==4}>
@@ -83,6 +87,7 @@
                 </ul>
                 <p class="summary-action">
                     <a class="btn-status">未参与该讲座</a>
+                    <a class="btn-normal">观看录播</a>
                 </p>
                 <{/if}>
             </div>
