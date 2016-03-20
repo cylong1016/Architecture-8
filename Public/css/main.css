@@ -38,6 +38,16 @@ a, .menu li, input, textarea {
   transition: all .3s ease-in-out;
 }
 
+button{
+  border: none;
+  background-color: #EAEAE9;
+  padding: 0;
+}
+
+button a.btn-normal{
+  margin: 0;
+}
+
 .box {
   -webkit-box-shadow: 0 1px 1px #a0a0a0;
   -moz-box-shadow: 0 1px 1px #a0a0a0;
@@ -456,4 +466,12 @@ td a,
 p a {
   color: #937B52;
   text-decoration: underline;
+}
+
+
+.video-div{
+  width: 90%;
+  height: 500px;
+  margin: 20px auto;
+  background-color: #937B52;
 }
