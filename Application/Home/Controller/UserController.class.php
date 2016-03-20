@@ -6,14 +6,13 @@ class UserController extends Controller
 
 	public function index()
 	{
-
+		$this->display();
 	}
 
 	public function login()
 	{
-		
-		$id = I( 'id' );
-		$password = I( 'password' );
+		$id = I('id');
+		$password = I('password');
 
 		$user = D('User');
 
@@ -38,7 +37,7 @@ class UserController extends Controller
 
 	public function get_info()
 	{
-		$id = I ( 'id' );
+		$id = I('id');
 		$user = D('User');
 
 		return $user->get_info($id);
