@@ -23,38 +23,38 @@
         <div class="list box">
             <h1 class="list-header">未反馈讲座</h1>
             <ul class="list-detail">
-                <{foreach from=$lectureToLog item=lecture}>
+                <foreach name="lectureToLog" item="lecture">
                 <li class="item">
                     <p class="info">
-                        <a class="info-title" href="lecturedetail-admin.php?id=<{$lecture.id}>"><{$lecture.name|truncate_cn:23:'...'}></a>
-                        <span class="info-detail">by <span><{$lecture.lecturer}></span> @<{$lecture.date}> <{$lecture.address}></span>
+                        <a class="info-title" href="lecturedetail-admin.php?id={$lecture.id}">{$lecture.name|truncate_cn:23:'...'}</a>
+                        <span class="info-detail">by <span>{$lecture.lecturer}</span> @{$lecture.date} {$lecture.address}</span>
                     </p>
                     <p class="action">
-                        <a href="import.php?id=<{$lecture.id}>" class="btn-normal">导入到场名单</a>
+                        <a href="import.php?id={$lecture.id}" class="btn-normal">导入到场名单</a>
                     </p>
                 </li>
-                <{/foreach}>
+                </foreach>
             </ul>
         </div>
 
         <div class="list box">
             <h1 class="list-header">已反馈讲座</h1>
             <ul class="list-detail">
-                <{foreach from=$lectureLogged item=lecture}>
+                <foreach name="lectureLogged" item="lecture">
                 <li class="item">
                     <p class="info">
-                        <a class="info-title" href="lecturedetail-admin.php?id=<{$lecture.id}>"><{$lecture.name|truncate_cn:23:'...'}></a>
-                        <span class="info-detail">by <span><{$lecture.lecturer}></span> @<{$lecture.date}> <{$lecture.address}></span>
+                        <a class="info-title" href="lecturedetail-admin.php?id={$lecture.id}">{$lecture.name|truncate_cn:23:'...'}</a>
+                        <span class="info-detail">by <span>{$lecture.lecturer}</span> @{$lecture.date} {$lecture.address}</span>
                     </p>
                     <p class="action">
-                        <a class="btn-s btn-export-excel"  href="ajax/export-excel.php?id=<{$lecture.id}>" data-lid="<{$lecture.id}>">导出</a>
-                        <a href="listdetail.php?id=<{$lecture.id}>" class="btn-normal">查看到场名单</a>
+                        <a class="btn-s btn-export-excel"  href="ajax/export-excel.php?id={$lecture.id}" data-lid="{$lecture.id}">导出</a>
+                        <a href="listdetail.php?id={$lecture.id}" class="btn-normal">查看到场名单</a>
                     </p>
                 </li>
-                <{/foreach}>
+                </foreach>
                 <div id="list-more">
                 </div>
-                <a class="btn-more" data-total="<{$total}>" data-type="lecturelog-admin">显示更多已反馈讲座</a>
+                <a class="btn-more" data-total="{$total}" data-type="lecturelog-admin">显示更多已反馈讲座</a>
                 <div class="loader" style="display:none;"><img src="img/loader.gif"> 加载中...</div>
             </ul>
         </div>

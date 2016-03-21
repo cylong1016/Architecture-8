@@ -63,15 +63,15 @@
             <table class="table-result">
                 <!--查找结果会加载到这里(HTML), 参照以下HTML格式-->
                 <!--
-                <{foreach from=$studentList item=student}>
-                <tr<{if ($student.row/2)!=0}> class="alt"<{/if}>>
-                    <td><{$student.row}></td>
-                    <td><a href="studentdetail.php?id=<{$student.id}>"><{$student.name}></a></td>
-                    <td><{$student.number}></td>
-                    <td><{$student.grade}></td>
-                    <td><{$student.times}></td>
+                {foreach from=$studentList item=student}
+                <tr{if ($student.row/2)!=0} class="alt"{/if}>
+                    <td>{$student.row}</td>
+                    <td><a href="studentdetail.php?id={$student.id}">{$student.name}</a></td>
+                    <td>{$student.number}</td>
+                    <td>{$student.grade}</td>
+                    <td>{$student.times}</td>
                 </tr>
-                <{/foreach}>
+                {/foreach}
                 -->
             </table>
             </p>

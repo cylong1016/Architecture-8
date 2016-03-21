@@ -22,61 +22,68 @@
     <div class="right">
 
         <div class="detail box">
-            <h1 class="detail-header"><{$name}></h1>
+            <h1 class="detail-header">{$name}</h1>
             <div class="detail-summary">
-                <{if $state==0}>
-                <ul class="summary-list">
-                    <li class="summary-item">当前状态 <span>正在报名中(<{$count}>/<{$total}>)</span></li>
-                    <li class="summary-item">主讲人 <span><{$lecturer}></span></li>
-                    <li class="summary-item">讲座时间 <span><{$date}></span></li>
-                    <li class="summary-item">讲座地点 <span><{$address}></span></li>
-                </ul>
-                <p class="summary-action">
-                    <a href="update.php?id=<{$id}>" class="btn-normal">修改讲座信息</a>
-                    <a href="adminsignup.php?id=<{$id}>" class="btn-normal">帮助学生报名</a>
-                    <a href="listdetail.php?id=<{$id}>" class="btn-normal">查看报名名单</a>
-                </p>
-                <{elseif $log==0}>
-                <ul class="summary-list">
-                    <li class="summary-item">当前状态 <span>该讲座已结束(未反馈)</span></li>
-                    <li class="summary-item">主讲人 <span><{$lecturer}></span></li>
-                    <li class="summary-item">讲座时间 <span><{$date}></span></li>
-                    <li class="summary-item">讲座地点 <span><{$address}></span></li>
-                </ul>
-                <p class="summary-action">
-                    <a href="import.php?id=<{$id}>" class="btn-normal">导入到场名单</a>
-                    <a class="btn-normal btn-cancel-log" data-lid="<{$id}>">取消反馈</a>
-                </p>
-                <{elseif $log==-1}>
-                <ul class="summary-list">
-                    <li class="summary-item">当前状态 <span>已过时</li>
-                    <li class="summary-item">主讲人 <span><{$lecturer}></span></li>
-                    <li class="summary-item">讲座时间 <span><{$date}></span></li>
-                    <li class="summary-item">讲座地点 <span><{$address}></span></li>
-                </ul>
-                <p class="summary-action">
-                    <a class="btn-status">过时讲座</a>
-                </p>
-                <{elseif $log==1}>
-                <ul class="summary-list">
-                    <li class="summary-item">当前状态 <span>已反馈(<a href="import.php?id=<{$id}>">重新导入名单</a>)</span></li>
-                    <li class="summary-item">主讲人 <span><{$lecturer}></span></li>
-                    <li class="summary-item">讲座时间 <span><{$date}></span></li>
-                    <li class="summary-item">讲座地点 <span><{$address}></span></li>
-                </ul>
-                <p class="summary-action">
-                    <a href="listdetail.php?id=<{$id}>" class="btn-normal">查看到场名单</a>
-                    <a class="btn-normal btn-export-excel" href="ajax/export-excel.php?id=<{$id}>" data-lid="<{$id}>">导出到场名单</a>
-                </p>
-                <{/if}>
+                <eq name="state" value="0">
+                    <ul class="summary-list">
+                        <li class="summary-item">当前状态 <span>正在报名中({$count}/{$total})</span></li>
+                        <li class="summary-item">主讲人 <span>{$lecturer}</span></li>
+                        <li class="summary-item">讲座时间 <span>{$date}</span></li>
+                        <li class="summary-item">讲座地点 <span>{$address}</span></li>
+                    </ul>
+                    <p class="summary-action">
+                        <a href="update.php?id={$id}" class="btn-normal">修改讲座信息</a>
+                        <a href="adminsignup.php?id={$id}" class="btn-normal">帮助学生报名</a>
+                        <a href="listdetail.php?id={$id}" class="btn-normal">查看报名名单</a>
+                    </p>
+                    <else/>
+                    <switch name="log">
+                        <case value="0">
+                            <ul class="summary-list">
+                                <li class="summary-item">当前状态 <span>该讲座已结束(未反馈)</span></li>
+                                <li class="summary-item">主讲人 <span>{$lecturer}</span></li>
+                                <li class="summary-item">讲座时间 <span>{$date}</span></li>
+                                <li class="summary-item">讲座地点 <span>{$address}</span></li>
+                            </ul>
+                            <p class="summary-action">
+                                <a href="import.php?id={$id}" class="btn-normal">导入到场名单</a>
+                                <a class="btn-normal btn-cancel-log" data-lid="{$id}">取消反馈</a>
+                            </p>
+                        </case>
+                        <case value="-1">
+                            <ul class="summary-list">
+                                <li class="summary-item">当前状态 <span>已过时</li>
+                                <li class="summary-item">主讲人 <span>{$lecturer}</span></li>
+                                <li class="summary-item">讲座时间 <span>{$date}</span></li>
+                                <li class="summary-item">讲座地点 <span>{$address}</span></li>
+                            </ul>
+                            <p class="summary-action">
+                                <a class="btn-status">过时讲座</a>
+                            </p>
+                        </case>
+                        <case value="1">
+                            ul class="summary-list">
+                            <li class="summary-item">当前状态 <span>已反馈(<a href="import.php?id={$id}">重新导入名单</a>)</span></li>
+                            <li class="summary-item">主讲人 <span>{$lecturer}</span></li>
+                            <li class="summary-item">讲座时间 <span>{$date}</span></li>
+                            <li class="summary-item">讲座地点 <span>{$address}</span></li>
+                            </ul>
+                            <p class="summary-action">
+                                <a href="listdetail.php?id={$id}" class="btn-normal">查看到场名单</a>
+                                <a class="btn-normal btn-export-excel" href="ajax/export-excel.php?id={$id}" data-lid="{$id}">导出到场名单</a>
+                            </p>
+                        </case>
+                        <default />
+                    </switch>
+                </eq>
             </div>
-            <p class="detail-content"><{$content}>
+            <p class="detail-content">{$content}
             </p>
-            <{if $existposter==1}>
-            <p class="detail-img">
-                <img src="img/<{$id}>.<{$extension}>" />
-            </p>
-            <{/if}>
+            <eq name="existposter" value="1">
+                <p class="detail-img">
+                    <img src="img/{$id}.{$extension}" />
+                </p>
+            </eq>
         </div>
     </div>
     <!-- END RIGHT -->

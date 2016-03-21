@@ -23,15 +23,15 @@
             <h1 class="detail-header">学生参与讲座详细信息</h1>
             <div class="detail-summary">
                 <ul class="summary-list">
-                    <li class="summary-item">姓名 <span><{$name}></span></li>
-                    <li class="summary-item">学号 <span><{$number}></span></li>
-                    <li class="summary-item">年级 <span><{$grade}></span></li>
-                    <li class="summary-item">专业 <span><{$major}></span></li>
-                    <li class="summary-item">参与讲座数 <span><{$signedupNumber}></span>已报名 | <span><{$participatedNumber}></span>已参与 | <span><{$unparticipatedNumber}></span>未到场</li>
+                    <li class="summary-item">姓名 <span>{$name}</span></li>
+                    <li class="summary-item">学号 <span>{$number}</span></li>
+                    <li class="summary-item">年级 <span>{$grade}</span></li>
+                    <li class="summary-item">专业 <span>{$major}</span></li>
+                    <li class="summary-item">参与讲座数 <span>{$signedupNumber}</span>已报名 | <span>{$participatedNumber}</span>已参与 | <span>{$unparticipatedNumber}</span>未到场</li>
                 </ul>
                 <p class="summary-action">
-                    <a class="btn-normal btn-export-excel-student" href = "ajax/export-excel-student.php?id=<{$id}>" data-uid="<{$id}>">导出到Excel表</a>
-                    <a class="btn-normal " href = "resetpass.php?id=<{$id}>" data-uid="<{$id}>">重置密码</a>
+                    <a class="btn-normal btn-export-excel-student" href = "ajax/export-excel-student.php?id={$id}" data-uid="{$id}">导出到Excel表</a>
+                    <a class="btn-normal " href = "resetpass.php?id={$id}" data-uid="{$id}">重置密码</a>
                 </p>
             </div>
             <p class="detail-content">
@@ -42,14 +42,20 @@
                     <th>讲座时间</th>
                     <th>最终是否到场</th>
                 </tr>
-                <{foreach from=$lectureList item=lecture}>
-                <tr<{if ($lecture.row/2)!=0}> class="alt"<{/if}>>
-                <td><{$lecture.row}></td>
-                <td><{$lecture.name}></td>
-                <td><{$lecture.date}></td>
-                <td><{if $lecture.participated==0}>×未到场<{elseif $lecture.participated==1}>√到场<{else}>○未报名但到场<{/if}></td>
+                <foreach name="lectureList" item="lecture">
+                <tr><neq name="lecture.row/2" value="0">class="alt"</neq>
+                <td>{$lecture.row}</td>
+                <td>{$lecture.name}</td>
+                <td>{$lecture.date}</td>
+                <td>
+                    <eq name="lecture.participated" value="0">×未到场
+                        <else/><eq name="lecture.participated" value="1">√到场
+                            <else/>○未报名但到场
+                        </eq>
+                    </eq>
+                </td>
                 </tr>
-                <{/foreach}>
+                    </foreach>
             </table>
             </p>
         </div>
