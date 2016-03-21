@@ -14,7 +14,7 @@
 
 <div class="content">
     <!-- BEGIN LEFT -->
-    <include file="./Application/Home/View/User/sidebar.html" />
+    <include file="__ROOT__/User/sidebar.html" />
     <!-- END LEFT -->
     <!-- BEGIN RIGHT -->
     <div class="right">
@@ -24,7 +24,7 @@
                 <foreach name="lectureToLog" item="lecture">
                 <li class="item">
                     <p class="info">
-                        <a class="info-title" href="lecturedetail-student.php?id={$lecture.id}">{$lecture.name|truncate_cn:23:'...'}</a>
+                        <a class="info-title" href="__ROOT__/User/lectureDetail/{$lecture.id}">{$lecture.name|truncate_cn:23:'...'}</a>
                         <span class="info-detail">by <span>{$lecture.lecturer}</span> @{$lecture.date} {$lecture.address}</span>
                     </p>
                     <p class="action">
@@ -44,7 +44,7 @@
                 <foreach name="lectureLogged" item="lecture">
                 <li class="item">
                     <p class="info">
-                        <a class="info-title" href="lecturedetail-student.php?id={$lecture.id}">{$lecture.name|truncate_cn:23:'...'}</a>
+                        <a class="info-title" href="__ROOT__/User/lectureDetail/{$lecture.id}">{$lecture.name|truncate_cn:23:'...'}</a>
                         <span class="info-detail">by <span>{$lecture.lecturer}</span> @{$lecture.date} {$lecture.address}</span>
                     </p>
                     <p class="action">
