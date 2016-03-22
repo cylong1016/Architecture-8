@@ -22,14 +22,14 @@ class UserModel extends Model {
 
 	public function login($uid, $password)
 	{
-		if($uid=='1111'&&$password=='1234')
+		if($uid=='admin'&&$password=='1234')
 		{
-
+			return array("admin","1234");
 		}
 
-		if($uid=='2222'&&$password=='1234')
+		if($uid=='student'&&$password=='1234')
 		{
-
+			return array("student","1234");
 		}
 
 		return null;

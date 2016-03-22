@@ -6,7 +6,7 @@ class AdministratorController extends Controller
 
 	public function index()
 	{
-
+		echo("hello admin");
 	}
 
 	public function add_lecture()
