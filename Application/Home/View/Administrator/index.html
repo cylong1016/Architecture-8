@@ -23,7 +23,7 @@
                 <foreach name="lectureSigningup" item="lecture">
                 <li class="item">
                     <p class="info">
-                        <a class="info-title" href="__ROOT__/Administrator/lectureDetail/{$lecture.id}">{$lecture.name|truncate_cn:23:'...'}</a>
+                        <a class="info-title" href="__ROOT__/Administrator/lectureDetail/{$lecture.id}">{$lecture.name}</a>
                         <span class="info-detail">by <span>{$lecture.lecturer}</span> @{$lecture.date} {$lecture.address}</span>
                     </p>
                     <p class="action">

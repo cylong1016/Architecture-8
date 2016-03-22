@@ -24,7 +24,7 @@
                 <foreach name="lectureSigningup" item="lecture">
                 <li class="item">
                     <p class="info">
-                        <a class="info-title" href="__ROOT__/User/lectureDetail/{$lecture.id}">{$lecture.name|truncate_cn:23:'...'}</a>
+                        <a class="info-title" href="__ROOT__/User/lectureDetail/{$lecture.id}">{$lecture.name|truncate_cn=23,'',0}</a>
                         <span class="info-detail">by <span>{$lecture.lecturer}</span> @{$lecture.date} {$lecture.address}</span>
                     </p>
                     <p class="action">
@@ -51,7 +51,7 @@
                 <li class="item">
                     <p class="info">
                         <a class="info-title" href="__ROOT__/User/lectureDetail/{$lecture.id}">
-                            {$lecture.name|truncate_cn:23:'...'}
+                            {$lecture.name|truncate_cn=23,'',0}
                         </a>
                         <span class="info-detail">by <span>{$lecture.lecturer}</span> @{$lecture.date} {$lecture.address}</span>
                     </p>
@@ -72,8 +72,8 @@
 <include file="./Application/Home/View/Home/footer.html" />
 <!-- END FOOTER -->
 
-<script src="../../../../Public/js/common.js" type="text/javascript"></script>
-<script src="../../../../Public/js/load-more.js" type="text/javascript"></script>
-<script src="../../../../Public/js/signup-lecture.js" type="text/javascript"></script>
+<script src="__PUBLIC__/js/common.js" type="text/javascript"></script>
+<script src="__PUBLIC__/js/load-more.js" type="text/javascript"></script>
+<script src="__PUBLIC__/js/signup-lecture.js" type="text/javascript"></script>
 </body>
 </html>
