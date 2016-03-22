@@ -11,12 +11,12 @@ class UserModel extends Model {
 		4 => 'type',
 		'_autoinc' => true,
 		'_type' => array (
-			'uid' => 'int(11) unsigned', 
-			'name' => 'varchar(30)', 
-			'password' => 'varchar(30)', 
-			'email' => 'varchar(40)', 
+			'uid' => 'int(11) unsigned',
+			'name' => 'varchar(30)',
+			'password' => 'varchar(30)',
+			'email' => 'varchar(40)',
 			'type' => 'int(11)'
-		), 
+		),
 	);
 	protected $pk = 'uid';
 
@@ -37,17 +37,15 @@ class UserModel extends Model {
 
 	public function get_info($uid)
 	{
-		if($uid=='1111')
-		{
 
-		}
+	$user = array(
+		'uid' => 'student',
+		'name' => 'cylong',
+		'password' => '1234',
+		'email' => 'cylong@nju.edu.cn',
+	);
 
-		if($uid=='2222')
-		{
-
-		}
-
-		return null;
+	return $user;
 	}
 
 	public function modify_info($uid, $name, $password, $email)
