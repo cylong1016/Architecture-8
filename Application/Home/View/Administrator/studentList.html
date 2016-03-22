@@ -61,18 +61,6 @@
                 </tr>
             </table>
             <table class="table-result">
-                <!--查找结果会加载到这里(HTML), 参照以下HTML格式-->
-                <!--
-                {foreach from=$studentList item=student}
-                <tr{if ($student.row/2)!=0} class="alt"{/if}>
-                    <td>{$student.row}</td>
-                    <td><a href="studentdetail.php?id={$student.id}">{$student.name}</a></td>
-                    <td>{$student.number}</td>
-                    <td>{$student.grade}</td>
-                    <td>{$student.times}</td>
-                </tr>
-                {/foreach}
-                -->
             </table>
             </p>
         </div>
@@ -84,7 +72,7 @@
 <!-- BEGIN FOOTER -->
 <!-- END FOOTER -->
 
-<script src="js/common.js" type="text/javascript"></script>
-<script src="js/operate-studentlist.js" type="text/javascript"></script>
+<script src="__PUBLIC__/js/common.js" type="text/javascript"></script>
+<script src="__PUBLIC__/js/operate-studentlist.js" type="text/javascript"></script>
 </body>
 </html>

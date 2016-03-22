@@ -33,8 +33,8 @@
                     </ul>
                     <p class="summary-action">
                         <a href="update.php?id={$id}" class="btn-normal">修改讲座信息</a>
-                        <a href="adminsignup.php?id={$id}" class="btn-normal">帮助学生报名</a>
-                        <a href="listdetail.php?id={$id}" class="btn-normal">查看报名名单</a>
+                        <a href="__ROOT__/Administrator/helpSignUp/{$id}" class="btn-normal">帮助学生报名</a>
+                        <a href="__ROOT__/Administrator/lectureDetail/{$id}" class="btn-normal">查看报名名单</a>
                     </p>
                     <else/>
                     <switch name="log">
@@ -69,7 +69,7 @@
                             <li class="summary-item">讲座地点 <span>{$address}</span></li>
                             </ul>
                             <p class="summary-action">
-                                <a href="listdetail.php?id={$id}" class="btn-normal">查看到场名单</a>
+                                <a href="__ROOT__/Administrator/lectureDetail/{$id}" class="btn-normal">查看到场名单</a>
                                 <a class="btn-normal btn-export-excel" href="ajax/export-excel.php?id={$id}" data-lid="{$id}">导出到场名单</a>
                             </p>
                         </case>
@@ -94,8 +94,8 @@
 
 <!-- END FOOTER -->
 
-<script src="js/common.js" type="text/javascript"></script>
-<script src="js/export-excel.js" type="text/javascript"></script>
-<script src="js/cancel-log.js" type="text/javascript"></script>
+<script src="__PUBLIC__/js/common.js" type="text/javascript"></script>
+<script src="__PUBLIC__/js/export-excel.js" type="text/javascript"></script>
+<script src="__PUBLIC__/js/cancel-log.js" type="text/javascript"></script>
 </body>
 </html>

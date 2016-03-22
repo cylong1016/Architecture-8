@@ -26,8 +26,8 @@
                         <span class="info-detail">by <span>{$lecture.lecturer}</span> @{$lecture.date} {$lecture.address}</span>
                     </p>
                     <p class="action">
-                        <a href="__ROOT__/Administrator/lectureDetail/id={$lecture.id}" class="btn-normal-look">查看报名</a>
-                        <a href="adminsignup.php?id={$lecture.id}" class="btn-normal-top">帮助学生报名</a>
+                        <a href="__ROOT__/Administrator/lectureDetail/{$lecture.id}" class="btn-normal-look">查看报名</a>
+                        <a href="__ROOT__/Administrator/helpSignUp/{$lecture.id}" class="btn-normal-top">帮助学生报名</a>
                         <neq name="lecture.top" value="0">
                             <a class="btn-hidden btn-untop-lecture" data-lid="{$lecture.id}"></a>
                             <else/>
@@ -44,7 +44,7 @@
                 <foreach name="lectureEnded" item="lecture">
                 <li class="item">
                     <p class="info">
-                        <a class="info-title" href="lecturedetail-admin.php?id={$lecture.id}">{$lecture.name|truncate_cn:23:'...'}</a>
+                        <a class="info-title" href="__ROOT__/Administrator/lectureDetail/{$lecture.id}">{$lecture.name}</a>
                         <span class="info-detail">by <span>{$lecture.lecturer}</span> @{$lecture.date} {$lecture.address}</span>
                     </p>
                 </li>
