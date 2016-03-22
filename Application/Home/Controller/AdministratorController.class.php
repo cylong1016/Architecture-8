@@ -21,7 +21,9 @@ class AdministratorController extends Controller
 			'address' => 'A430'
 		);
 		$lectureSigningup = array($lecture1, $lecture2);
+		$lectureEnded = array($lecture1);
 		$this->assign('lectureSigningup', $lectureSigningup);
+		$this->assign('lectureEnded', $lectureEnded);
 		$this->display();
 	}
 
