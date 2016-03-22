@@ -29,7 +29,7 @@
                     </p>
                     <p class="action">
                         <if condition="$lecture.state eq '0' ">
-                        <a href="cancelsignup.php?id={$lecture.id}" class="btn-normal">取消报名</a>
+                        <a href="__ROOT__/User/dropLecture/{$lecture.id}" class="btn-normal">取消报名</a>
                         <else />
                         <a class="btn-status">正在退选中</a>
                         </if>
