@@ -13,7 +13,7 @@
 <!-- BEGIN CONTENT -->
 <div class="content">
     <!-- BEGIN LEFT -->
-    <include file="__ROOT__/User/sidebar.html" />
+    <include file="./Application/Home/View/User/sidebar.html" />
     <!-- END LEFT -->
     <!-- BEGIN RIGHT -->
     <div class="right">
@@ -93,7 +93,7 @@
             </div>
             <p class="detail-content">{$content}
             </p>
-            <if condition="$existposter eq '1' " />
+            <if condition="$existposter eq 1 " >
             <p class="detail-img">
                 <img src="img/{$id}.{$extension}" />
             </p>
