@@ -29,15 +29,7 @@
                 </ul>
                 <p class="summary-action">
                     <a class="btn-normal btn-signup-lecture" data-uid="{$uid}" data-lid="{$lid}">{$count} / {$total} 报名</a>
-                    <if condition="$free eq 1">
-                        <a class="btn-normal">
-                            <if condition="$pay eq 0">
-                                已支付
-                                <else/>
-                                未支付
-                            </if>
-                        </a>
-                    </if>
+                    <a class="btn-normal">支付/已支付</a>
                 </p>
                 <elseif condition="$state eq '1' " />
                 <ul class="summary-list">
@@ -48,15 +40,7 @@
                 </ul>
                 <p class="summary-action">
                     <a class="btn-normal" href="__ROOT__/User/dropLecture/id/{$lid}">取消报名</a>
-                    <if condition="$free eq 1">
-                        <a class="btn-normal">
-                            <if condition="$pay eq 0">
-                                已支付
-                                <else/>
-                                未支付
-                            </if>
-                        </a>
-                    </if>
+                    <a class="btn-normal">支付/已支付</a>
                 </p>
                 <elseif condition="$state eq '2' " />
                 <ul class="summary-list">
@@ -67,6 +51,7 @@
                 </ul>
                 <p class="summary-action">
                     <a class="btn-status">正在退选中</a>
+
                 </p>
                 <elseif condition="$state eq '3' " />
                 <ul class="summary-list">
@@ -77,7 +62,7 @@
                 </ul>
                 <p class="summary-action">
                     <a class="btn-status">已参与讲座(<if condition="$isPresent eq '0' ">未</if>到场)</a>
-                    <a class="btn-normal" href="__ROOT__/User/lectureRecord/id/{$lid}">观看录播</a>
+                    <a class="btn-normal">观看录播</a>
                 </p>
                 <div class="">
                     <h4>讲座讨论区</h4>

@@ -35,9 +35,11 @@ class UserController extends Controller
 
 		$lectureSigningup = array($lecture1, $lecture2);
 		$lectureEnded = array($lecture1, $lecture2);
+		$lectureLive = array($lecture1, $lecture2);
 		$this->assign('user', $user);
 		$this->assign('lectureSigningup', $lectureSigningup);
 		$this->assign('lectureEnded', $lectureEnded);
+		$this->assign('lectureLive', $lectureLive);
 		$this->display();
 	}
 
@@ -138,6 +140,24 @@ class UserController extends Controller
 		$this->assign('total', 20);
 		$this->assign('user', $user);
 
+		$this->display();
+	}
+
+	public function lectureLive() {
+		$user = array(
+			'uid' => 'student',
+			'name' => 'cylong',
+			'password' => '1234',
+			'email' => 'cylong@nju.edu.cn',
+		);
+
+		$this->assign('id',1);
+		$this->assign('name','创新创业与青年成长');
+		$this->assign('lecturer','曾宪章');
+		$this->assign('date','2016-03-08 14:15:00');
+		$this->assign('address','大学生活动中心南青学堂');
+
+		$this->assign('user', $user);
 		$this->display();
 	}
 
