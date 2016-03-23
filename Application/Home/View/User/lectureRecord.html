@@ -2,7 +2,7 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <include file="./Application/Home/View/Home/head.html" />
-    <title>讲座详情</title>
+    <title>讲座录播</title>
 </head>
 <body>
 <!-- BEGIN HEADER-->
@@ -18,6 +18,14 @@
     <div class="right">
         <div class="detail box">
             <h1 class="detail-header">{$name}</h1>
+            <div class="detail-summary">
+                <ul class="summary-list">
+                    <li class="summary-item">当前状态 <span>已结束</span></li>
+                    <li class="summary-item">主讲人 <span>{$lecturer}</span></li>
+                    <li class="summary-item">讲座时间 <span>{$date}</span></li>
+                    <li class="summary-item">讲座地点 <span>{$address}</span></li>
+                </ul>
+            </div>
             <div class="video-div"></div>
         </div>
     </div>

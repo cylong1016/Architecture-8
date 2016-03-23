@@ -29,7 +29,7 @@
                         <span class="info-detail">by <span>{$lecture.lecturer}</span> @{$lecture.date} {$lecture.address}</span>
                     </p>
                     <p class="action">
-                        <a href="import.php?id={$lecture.id}" class="btn-normal">导入到场名单</a>
+                        <a href="" class="btn-normal">导入到场名单</a>
                     </p>
                 </li>
                 </foreach>
@@ -46,7 +46,7 @@
                         <span class="info-detail">by <span>{$lecture.lecturer}</span> @{$lecture.date} {$lecture.address}</span>
                     </p>
                     <p class="action">
-                        <a class="btn-s btn-export-excel"  href="ajax/export-excel.php?id={$lecture.id}" data-lid="{$lecture.id}">导出</a>
+                        <a class="btn-s btn-export-excel"  href="" data-lid="{$lecture.id}">导出</a>
                         <a href="__ROOT__/Administrator/lectureDetail/{$lecture.id}" class="btn-normal">查看到场名单</a>
                     </p>
                 </li>
