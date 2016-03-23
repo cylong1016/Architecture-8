@@ -1,10 +1,10 @@
 <div class="header">
     <div class="header-wrap">
         <div class="current-user">
-            <eq name="user.type" value="admin">
-                <span id="current-user"> | 当前用户: {$user.name} | </span>
+            <eq name="user.uid" value="student">
+                <a id="current-user" href="__ROOT__/User/userinfo"> | 当前用户: {$user.name} | </a>
                 <else/>
-                <a id="current-user" href="userinfo-{$user.type}.php"> | 当前用户: {$user.name} | </a>
+                <span id="current-user"> | 当前用户: {$user.name} | </span>
             </eq>
             <a href="password-{$user.type}.php">修改密码</a>
             <span> | </span>
@@ -13,3 +13,4 @@
         <div class="logo" onClick="javascript:window.location.href='lecturelist-{$user.type}.php';"></div>
     </div>
 </div>
+
