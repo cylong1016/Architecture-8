@@ -161,5 +161,34 @@ class UserController extends Controller
 		$this->display();
 	}
 
+	public function userinfo() {
+		$user = array(
+			'uid' => 'student',
+			'name' => 'cylong',
+			'password' => '1234',
+			'email' => 'cylong@nju.edu.cn',
+		);
+
+		$this->assign('id',1);
+		$this->assign('name','cylong');
+		$this->assign('gender','男');
+		$this->assign('number',131250000);
+		$this->assign('grade','大三');
+		$this->assign('major','软件工程');
+		$this->assign('email','cylong@nju.edu.cn');
+		$this->assign('phone','123456789');
+		$this->assign('address','南京大学');
+		$this->assign('status','学生');
+		$this->assign('idnumber','1234567890');
+		$this->assign('signedupNumber',5);
+		$this->assign('participatedNumber',2);
+		$this->assign('unparticipatedNumber',3);
+
+		$this->assign('user', $user);
+
+		$this->display();
+
+	}
+
 }
 ?>
