@@ -34,7 +34,7 @@ class HomeController extends Controller {
 	{
 		session(null);
 		cookie('token', null);
-		$this->redirect('/');
+		$this->display('login');
 	}
 
 	public function get_info()
