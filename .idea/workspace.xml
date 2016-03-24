@@ -2,17 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a6958bed-9d5a-4282-9993-b08c16765f5a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Home/View/User/lectureRecord.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Application/Home/View/User/videoOnline.html" afterPath="$PROJECT_DIR$/Application/Home/View/User/lectureLive.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Home/View/Home/header.html" afterPath="$PROJECT_DIR$/Application/Home/View/Home/header.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Home/View/User/index.html" afterPath="$PROJECT_DIR$/Application/Home/View/User/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Home/View/Administrator/lectureDetail.html" afterPath="$PROJECT_DIR$/Application/Home/View/Administrator/lectureDetail.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Home/View/User/lectureDetail.html" afterPath="$PROJECT_DIR$/Application/Home/View/User/lectureDetail.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Home/View/Administrator/lectureLog.html" afterPath="$PROJECT_DIR$/Application/Home/View/Administrator/lectureLog.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Home/View/Administrator/sidebar.html" afterPath="$PROJECT_DIR$/Application/Home/View/Administrator/sidebar.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Home/View/User/sidebar.html" afterPath="$PROJECT_DIR$/Application/Home/View/User/sidebar.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Home/View/Administrator/studentInfo.html" afterPath="$PROJECT_DIR$/Application/Home/View/Administrator/studentInfo.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Home/View/User/userInfo.html" afterPath="$PROJECT_DIR$/Application/Home/View/User/userInfo.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Architecture-8.iws" />
@@ -57,7 +46,7 @@
       <file leaf-file-name="lectureDetail.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Application/Home/View/User/lectureDetail.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.57583547">
+            <state vertical-scroll-proportion="0.94215935">
               <caret line="90" column="25" selection-start-line="90" selection-start-column="25" selection-end-line="90" selection-end-column="25" />
               <folding />
             </state>
@@ -882,7 +871,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Application/Home/View/User/lectureDetail.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.57583547">
+        <state vertical-scroll-proportion="0.94215935">
           <caret line="90" column="25" selection-start-line="90" selection-start-column="25" selection-end-line="90" selection-end-column="25" />
           <folding />
         </state>
