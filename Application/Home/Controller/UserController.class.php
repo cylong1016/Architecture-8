@@ -190,5 +190,15 @@ class UserController extends Controller
 
 	}
 
+	public function lectureRecord() {
+		$this->assign('id',1);
+		$this->assign('name','创新创业与青年成长');
+		$this->assign('lecturer','曾宪章');
+		$this->assign('date','2016-03-08 14:15:00');
+		$this->assign('address','大学生活动中心南青学堂');
+
+		$this->display();
+	}
+
 }
 ?>
